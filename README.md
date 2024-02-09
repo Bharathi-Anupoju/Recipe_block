@@ -1,5 +1,5 @@
 # Check this Out 
-![Text](https://bharathi-anupoju.github.io/Recipe_block/)
+[Tect](https://bharathi-anupoju.github.io/Recipe_block/)
 # Frontend Mentor - Recipe page
 
 ![Design preview for the Recipe page coding challenge](./design/desktop-preview.jpg)
