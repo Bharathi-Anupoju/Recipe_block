@@ -1,0 +1,93 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.white{
+    background-color: hsl(0, 0%, 100%);
+    width:40%;
+    margin:0px auto;
+    border-radius: 20px;
+    padding:20px;
+}
+#image{
+    width:100%;
+    border-radius: 15px;
+}
+h1{
+    color: rgb(99, 97, 97);
+    font-size: 20px;
+    font-family: 'Young Serif', serif;
+}
+.para{
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+h4{
+    color: hsl(332, 51%, 32%);
+    margin:10px;
+}
+.litepink{
+    background-color: hsl(330, 100%, 98%);
+    font-family: 'Outfit', sans-serif;
+    padding: 5px;
+    border-radius: 10px;
+}
+ul>li{
+    padding:5px;
+    font-size: 11px;
+    
+}
+ul>li>span{
+    font-weight: bold;
+}
+h3{
+    color: hsl(32, 48%, 35%);
+    font-family:'Young Serif', serif ;
+    margin-bottom: 0px;
+}
+.div2{
+    font-family: 'Outfit', sans-serif;
+    /* background-color: aqua; */
+    padding:10px 5px;
+    border-bottom: 1px rgb(213, 201, 201) solid;
+}
+.box{
+    display: flex;
+    align-items: center;
+    margin:0px 10px;
+    padding:10px;
+    font-size: 12px;
+    border-bottom: 1px rgb(213, 201, 201) solid ;
+}
+.box>span{
+    /* color:aqua; */
+    width:50%;
+    font-family:'Outfit', sans-serif ;
+    /* color: hsl(36, 5%, 44%); */
+}
+.quant{
+    font-weight: bold;
+    color:hsl(332, 51%, 32%);
+}
+.attribution{
+    color:aquamarine;
+    padding: 10px;
+    font-size: 10px;
+}
+
+@media only screen and (max-width:375px){
+    body{
+        width: 100%;
+        background-size: cover;
+        background-color: white;
+    }
+    .white{
+        padding: 0px;
+        width: 100%;
+        margin: 0px;
+    }
+    #image{
+        width:100%;
+        border-radius: 0px;
+    }
+}
